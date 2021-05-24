@@ -2,12 +2,13 @@
       MODEL (will call methods defined in views)
       --------------------------------------
       Need an inmemory board model
-        -is an object where keys are rows and diagonals and values are ints from -3 to 3
+        -is an object where keys are rows,cols, and diags and values are ints from -3 to 3
 
       Need a table for keeping track of game state
         -each row is a turn, columns are:
           -turnID
-          -boardStateChange (format = "021" or "200" first digit is row, second is column and, last is piece)
+          -boardStateChange (format = "021" or "200" first digit is piece, second is row and, last is col)
+
         -should have an post method for when new pieces are placed
           -params: row and column name player turn;
           -description: parse params into a string and post to board and update in memory model of board
