@@ -1,31 +1,31 @@
 <!DOCTYPE html>
 <head>
-  <script type="javascript" src="app.js"></script>
+
 </head>
 <body>
   <div class="app">
     <div class="board">
-      <div id="row0">
-        <span class="space col0"></span>
-        <span class="space col1"></span>
-        <span class="space col2"></span>
+      <div id="row0" style="height: 100px; width: 330px;">
+        <div class="space 00" style="background: gray; height: 99%; width: 32%; float: left; margin: .5%"></div>
+        <div class="space 01" style="background: gray; height: 99%; width: 32%; float: left; margin: .5%"></div>
+        <div class="space 02" style="background: gray; height: 99%; width: 32%; float: left; margin: .5%"></div>
       </div>
-      <div id="row1">
-        <span class="space col0"></span>
-        <span class="space col1"></span>
-        <span class="space col2"></span>
+      <div id="row1" style="height: 100px; width: 330px;">
+        <div class="space 10" style="background: gray; height: 99%; width: 32%; float: left; margin: .5%"></div>
+        <div class="space 11" style="background: gray; height: 99%; width: 32%; float: left; margin: .5%"></div>
+        <div class="space 12" style="background: gray; height: 99%; width: 32%; float: left; margin: .5%"></div>
       </div>
-      <div id="row2">
-        <span class="space col0"></span>
-        <span class="space col1"></span>
-        <span class="space col2"></span>
+      <div id="row2" style="height: 100px; width: 330px;">
+        <div class="space 20" style="background: gray; height: 99%; width: 32%; float: left; margin: .5% "></div>
+        <div class="space 21" style="background: gray; height: 99%; width: 32%; float: left; margin: .5%"></div>
+        <div class="space 22" style="background: gray; height: 99%; width: 32%; float: left; margin: .5%"></div>
       </div>
     </div>
     <div class="hud">
-      <div class=turn>
-      </div>
+      <button id="reset">Reset</button>
       <div class="hist">
       </div>
     </div>
   </div>
+  <script type="text/javascript" onload="loaded=1" src="app.js"></script>
 </body>
