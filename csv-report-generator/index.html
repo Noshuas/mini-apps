@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<head>
+</head>
+<body>
+  <div style="width: 50%;">
+    <form id="fileUpload">
+      <label for="input">Put your JSON text here</label>
+      <input name="file" type="file" id="input" required>
+      <input type="submit" id="submit" value="convert to csv">
+    </form>
+  </div>
+  <div style="width: 50%;">
+    <label for="result">Result</label>
+    <textarea id="result" name="result" style="resize: none" cols="50" rows="25" disabled></textarea>
+  </div>
+  <script src="controller.js"></script>
+</body>
