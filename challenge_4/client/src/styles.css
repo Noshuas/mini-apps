@@ -1,0 +1,32 @@
+.column {
+  background: rgb(66, 66, 62);
+  width: 13%;
+  height: 99%;
+  float: left;
+}
+
+.row {
+  height: 13%;
+  border: solid black 2px;
+  border-radius: 50%;
+  background: lightblue;
+}
+.view {
+  height: 12%;
+  border-radius: 50%;
+  background:rgb(66, 66, 62);
+  margin: 4%;
+}
+
+#board {
+  width: 850px;
+  height: 800px;
+}
+
+.red {
+  background: red;
+}
+
+.black {
+  background: black;
+}
